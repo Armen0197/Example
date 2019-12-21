@@ -21,7 +21,7 @@ public class FirstTest {
 
         LoginPage loginPage = new LoginPage(driver);
         loginPage.setLogin("snxchyan2014@mail.ru");
-        loginPage.setPassword("xdrxalo");
+        loginPage.setPassword("password");
         loginPage.clickButton();
 
         HomePage homePage = new HomePage(driver);
